@@ -27,6 +27,7 @@ body {
     /* font-weight: <weight>; */
     font-style: normal;
     text-align: center;
+    font-size:24px;
 }
 
 #Title {
@@ -38,15 +39,30 @@ body {
     
 }
 .header{
-  font-size:2rem;
+  font-size:2.8rem;
+  margin-top:6rem;
+}
+#container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.6rem;
+}
+#info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1.5rem;
+    padding:1.5rem;
+    border:2px solid white;
 }
 
 #storyline {
   width:70%;
   margin:0 auto;
 }
+
 #CoverArt {
-    border-radius: 17px;
+    border-radius: 50%;
     width:40%;
     margin: 0 auto;
     display: block;
@@ -59,9 +75,11 @@ body {
     list-style-type: none;
 
 }
+.space-up {
+    margin-top: 1.1rem;
+}
 #Rating {
-    font-size: 1.5rem;
-    display: block;
+    font-size: 2.5rem;
     color:white;
 }
 .actor-image {
