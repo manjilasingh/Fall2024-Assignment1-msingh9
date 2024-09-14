@@ -18,5 +18,58 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+   /* background-image: url('../interstellar-bg.jpg'); */
+    background-color: black;
+    color: white;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+    text-align: center;
+}
+
+#Title {
+    font-size: 4rem;
+    display: block;
+    color:white;
+    margin:0 auto;
+    margin-bottom:4rem;
+    
+}
+.header{
+  font-size:2rem;
+}
+
+#storyline {
+  width:70%;
+  margin:0 auto;
+}
+#CoverArt {
+    border-radius: 17px;
+    width:40%;
+    margin: 0 auto;
+    display: block;
+}
+#Actors{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style-type: none;
+
+}
+#Rating {
+    font-size: 1.5rem;
+    display: block;
+    color:white;
+}
+.actor-image {
+    width: 200px;
+    /* height: 100px; */
+    border-radius: 50%;
+    display: block;
+}
+.actor-title {
+    text-align: center;
 }
